@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NotesSQLLITE" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/PRI_purple</item>
+        <item name="colorPrimaryVariant">@color/SEC_PURPLE</item>
+        <item name="android:statusBarColor">@color/SEC_teal</item>
+    </style>
+
+    <style name="Theme.NotesSQLLITE" parent="Base.Theme.NotesSQLLITE" />
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNoteActivity">
+
+    <TextView
+        android:id="@+id/addnoteheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/poppins_semibold2"
+        android:text=" Add detail"
+        android:textColor="@color/PRI_purple"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_done_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/addnoteheading"
+        android:layout_marginEnd="6dp"
+        />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="enter the name"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/addnoteheading"
+        android:background="@drawable/teal_border"
+        android:layout_marginTop="120dp"
+        android:maxLines="1"
+        android:fontFamily="@font/poppins_semibold"
+        />
+
+    <EditText
+        android:id="@+id/nicknameText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/nameText"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/teal_border"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="top"
+        android:hint="enter the nickname"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/nicknameText"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/teal_border"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="top"
+        android:hint="enter the email"
+        android:padding="12dp"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/addressText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/emailText"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/teal_border"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="top"
+        android:hint="enter the address"
+        android:padding="12dp"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/dateofbirthText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/addressText"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/teal_border"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="top"
+        android:hint="enter the date of birth"
+        android:padding="12dp"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/phoneText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/dateofbirthText"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/teal_border"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="top"
+        android:hint="enter the phone number"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="138dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</RelativeLayout>
